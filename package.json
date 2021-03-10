@@ -1,6 +1,6 @@
 {
   "name": "hexo-deployer-ali-oss-extend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "hexo deployer ali oss extend tool",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,9 @@
   "author": "huzhanfei@outlook.com",
   "license": "MIT",
   "dependencies": {
-    "ali-oss": "^6.8.0",
-    "chalk": "^2.4.2",
+    "ali-oss": "^6.13.2",
+    "chalk": "^4.1.0",
+    "co": "^4.6.0",
     "path": "^0.12.7",
     "rd": "^2.0.1"
   }
